@@ -1,0 +1,17 @@
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\DOTween.dll
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\DOTween43.dll
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\DOTween46.dll
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\UnityEditor.dll
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\UnityEngine.dll
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\UnityEngine.xml
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\UnityEditor.xml
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\DOTween.xml
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\DOTween43.xml
+E:\source_work\projects_unity\killSun\Temp\UnityVS_bin\Debug\DOTween46.xml
+E:\source_work\projects_unity\killSun\obj\Debug\UnityVS.killSun.CSharp.csprojResolveAssemblyReference.cache
+E:\source_work\projects_unity\killSun\obj\Debug\Assembly-CSharp.dll
+E:\source_work\projects_unity\killSun\obj\Debug\Assembly-CSharp.pdb

@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bx.unity3d.demo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:name="com.bx.pay.WPayApplication" >
+        
+        <!-- 微派支付——微派分配的APP_ID -->
+        <meta-data android:name="WIIPAY_APP_ID" android:value="7c2f5e9fc03ba838df6c8079db8395da" />
+        
+        <!-- 微派支付——渠道编号 -->
+        <meta-data android:name="WIIPAY_CHANNEL_CODE" android:value="200000" />
+        
+        <activity
+            android:name="com.example.unitywpaydemo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+            
+            <!-- 微派——微信支付  必须配置 -->
+            <intent-filter>
+	            <action android:name="android.intent.action.VIEW"/>
+	            <category android:name="android.intent.category.DEFAULT"/>
+	            <data android:scheme="wx02ccf0c5f9273f45"/><!-- 微信支付专门分配的id，联系运营人员索取 -->
+            </intent-filter>  
+        </activity>
+        
+        <!-- 微派支付——话费支付必须 start -->
+        <service android:enabled="true" android:name="com.bx.pay.WpaySmsService" >
+            <intent-filter>
+                <action android:name="com.bx.pay.WpaySmsService" />
+            </intent-filter>
+        </service>
+        
+        <receiver
+            android:name="com.bx.pay.SmsListener"
+            android:permission="android.permission.BROADCAST_SMS"
+            android:label="Sms listener" >
+            <intent-filter android:priority="2147483647" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+                <action android:name="android.provider.Telephony.SMS_DELIVER" />
+            </intent-filter>
+        </receiver>
+        <!-- 微派支付——话费支付必须 end -->
+        
+                
+        <!--微派支付——银联支付 必须 start  -->
+         <activity
+            android:name="com.bx.pay.UpActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+         <activity
+            android:name="com.unionpay.uppay.PayActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+		<!--微派支付——银联支付 必须 end  -->
+
+
+
+		<!--微派支付——支付宝 必须 start  -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" >
+        </activity>
+		<!--微派支付——支付宝 必须 end  -->
+
+
+		<!--微派支付——微信支付  必须 start  -->
+         <activity
+            android:name="com.rx.demo104.wxapi.WXPayEntryActivity"
+            android:theme="@android:style/Theme.NoDisplay"
+            android:exported="true"
+            android:launchMode="singleTop"/>
+         <!--微派支付——微信支付  必须 end  -->
+        
+    </application>
+	 <!--微派支付——所需权限 -start  -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />   
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+	
+	
+	<uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <!--微派支付——所需权限 -end  -->
+</manifest>

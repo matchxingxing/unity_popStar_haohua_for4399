@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: fd73d636867c43742a8be4059e8433d6
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lingqu_0
+    21300002: lingqu_1
+    21300004: lingqu_2
+    21300006: lingqu_3
+    21300008: lingqu_4
+    21300010: lingqu_5
+    21300012: lingqu_6
+    21300014: lingqu_7
+    21300016: lingqu_8
+    21300018: lingqu_9
+    21300020: lingqu_10
+    21300022: lingqu_11
+    21300024: lingqu_12
+    21300026: lingqu_13
+    21300028: lingqu_14
+    21300030: lingqu_15
+    21300032: lingqu_16
+    21300034: lingqu_17
+    21300036: lingqu_18
+    21300038: lingqu_19
+    21300040: lingqu_20
+    21300042: lingqu_21
+    21300044: lingqu_22
+    21300046: lingqu_23
+    21300048: lingqu_24
+    21300050: lingqu_25
+    21300052: lingqu_26
+    21300054: lingqu_27
+    21300056: lingqu_28
+    21300058: lingqu_29
+    21300060: lingqu_30
+    21300062: lingqu_31
+    21300064: lingqu_32
+    21300066: lingqu_33
+    21300068: lingqu_34
+    21300070: lingqu_35
+    21300072: lingqu_36
+    21300074: lingqu_37
+    21300076: lingqu_38
+    21300078: lingqu_39
+    21300080: lingqu_40
+    21300082: lingqu_41
+    21300084: lingqu_42
+    21300086: lingqu_43
+    21300088: lingqu_44
+    21300090: lingqu_45
+    21300092: lingqu_46
+    21300094: lingqu_47
+    21300096: lingqu_48
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: lingqu_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 940
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 940
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_2
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 940
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 940
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_4
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 940
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 856
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_6
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 856
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_7
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 856
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_8
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 856
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_9
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 856
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 772
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_11
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 772
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_12
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 772
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_13
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 772
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_14
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 772
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 688
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_16
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 688
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_17
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 688
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_18
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 688
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_19
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 688
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_21
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 604
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_22
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 604
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_23
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 604
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_24
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 604
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 520
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_27
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 520
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_28
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 520
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_29
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 520
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 436
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_31
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 436
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_32
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 436
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_33
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 436
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_34
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 436
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_36
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 352
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_37
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 352
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_38
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 352
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_39
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 352
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 268
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_41
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 268
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_42
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 268
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_43
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 268
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_44
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 268
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_46
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 184
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_47
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 184
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: lingqu_48
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 184
+        width: 203
+        height: 84
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

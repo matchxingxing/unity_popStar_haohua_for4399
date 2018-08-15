@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8869179c2d5f3e44ab8c07998e84dfb7
+TrueTypeFontImporter:
+  serializedVersion: 2
+  fontSize: 50
+  forceTextureCase: 3
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  use2xBehaviour: 0
+  fontNames: []
+  customCharacters: "\u7B2C\u5173\u6700\u9AD8\u8BB0\u5F55\u76EE\u6807\uFF1A\u661F:0\u91CD\u65B0\u6392\u5E8F\u968F\u673A\u5217\u6240\u6709\u6C34\u679C.\u53D8\u8272\u6539\u67D0\u4E2A\u7684\u989C\u3002\u5206\u6570\u52A0\u500D\u5728\u4E0B\u4E00\u6B21\u83B7\u5F97\u65F6\u53EF\u6D88\u9664\u65B9\u5757\u6389123456789\u5956\u52B1\u5269\u591A\u76F8\u540C\u8D8A\u5361\u7ED3\u675F\u5C11\u4F60\u62E5\u94BB\u77F3\u9897x\u6682\u505C"
+  fontRenderingMode: 0
+  userData: 
