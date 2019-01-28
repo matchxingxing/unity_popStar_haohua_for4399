@@ -17,6 +17,8 @@ public class Game : MonoBehaviour {
     public GameObject wantContinueUI_Prefab;
     public GameObject screenText_Prefab;
     public GameObject mysteryPrize_Prefab;
+	public GameObject rank_Prefab;
+	public GameObject browseAdGetDiamondUI_Prefab;
 
 
     private StarsShow _starsShow;
@@ -68,6 +70,10 @@ public class Game : MonoBehaviour {
     public void ToShop(){
         GameObject.Instantiate(shopUI_Prefab);
     }
+
+	public void ToRank(){
+		Instantiate(rank_Prefab);
+	}
 
     public void CreatePauseUI(){
         _pause = true;
@@ -196,6 +202,11 @@ public class Game : MonoBehaviour {
         ReceiveBagScript rBag = gObj.GetComponent<ReceiveBagScript>();
         rBag.SetDestroyIsContinueGame(destroyIsContinueGame);
     }
+
+	/**创建浏览广告加钻石界面*/
+	public void CreateBrowseAdGetDiamondUI(){
+		Instantiate(browseAdGetDiamondUI_Prefab);
+	}
 
     /*神秘大奖*/
     public void CreateMysteryPrize(){

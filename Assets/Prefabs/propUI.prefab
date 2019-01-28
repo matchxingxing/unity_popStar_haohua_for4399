@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 11464898}
   - component: {fileID: 11464900}
   m_Layer: 0
-  m_Name: btn_createReceiveBag
+  m_Name: btn_browseAdGetDiamond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,7 +160,7 @@ GameObject:
   - component: {fileID: 11493466}
   - component: {fileID: 11493468}
   m_Layer: 0
-  m_Name: btn_createReceiveBag
+  m_Name: add
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

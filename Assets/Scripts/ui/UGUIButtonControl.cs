@@ -40,6 +40,10 @@ public class UGUIButtonControl : MonoBehaviour {
             case "shop":
                 game.ToShop();
                 break;
+			case "rank":
+				isDestroyParent = false;
+				game.ToRank();
+				break;
             case "btnNoviceBag"://首页新手礼包按钮
                 game.CreateNoviceBag();
                 isDestroyParent=false;
@@ -55,7 +59,7 @@ public class UGUIButtonControl : MonoBehaviour {
                 //设置已经领取过新手礼包
                 Game.instance.SetIsReceiveNoviceBag(true);
                 //弹出活动大礼包
-                Game.instance.CreateActivityBag();
+                //Game.instance.CreateActivityBag();
                 break;
             case "help":
                 game.ToHelp();
@@ -76,6 +80,10 @@ public class UGUIButtonControl : MonoBehaviour {
                 isDestroyParent = false;
                 game.CreateReceiveBag();
                 break;
+			case "btn_browseAdGetDiamond"://弹看广告加钻石界面
+				isDestroyParent = false;
+				game.CreateBrowseAdGetDiamondUI();
+				break;
             case "wantContinueUI_cancel"://我要继续界面的 "x"
                 game.FailureBackToTitle();
                 break;

@@ -9,7 +9,7 @@ public class GameData
 
 	public static int getTargetScore (int level)
 	{
-		/*int targetScore;
+		int targetScore;
         if(level>=19){
             targetScore = 47000+4000*(level-18);
         }else if(level>=7 && level<=18){
@@ -17,8 +17,8 @@ public class GameData
         }else{
             targetScore = 1000+2000*(level-1);
         }
-        return targetScore;*/
-		int [] list = new int [36];
+        return targetScore;
+		/*int [] list = new int [36];
 		list [0] = 1000;
 		list [1] = 2500;
 		list [2] = 4500;
@@ -55,7 +55,7 @@ public class GameData
 		list [33] = 75800;
 		list [34] = 78420;
 		list [35] = 81060;
-		return list [level - 1];
+		return list [level - 1];*/
 	}
 
 	private static int[,] _shopData = 
